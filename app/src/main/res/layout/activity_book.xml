@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book A Table"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@android:color/holo_blue_light"
+            android:layout_width="410dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="280dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/outside_sea_view" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table5"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.592"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.075"
+                app:srcCompat="@drawable/table_image_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table1"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.048"
+                app:srcCompat="@drawable/table_image_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table4"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.951"
+                app:srcCompat="@drawable/table_image_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table3"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.665"
+                app:srcCompat="@drawable/table_image_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table2"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.379"
+                app:srcCompat="@drawable/table_image_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table7"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.592"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.819"
+                app:srcCompat="@drawable/table_image_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table8"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.201"
+                app:srcCompat="@drawable/table_image_6" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table9"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.949"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.665"
+                app:srcCompat="@drawable/table_image_6" />
+
+            <ImageButton
+                android:id="@+id/imageButton_table6"
+                android:layout_width="91dp"
+                android:layout_height="68dp"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.592"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.436"
+                app:srcCompat="@drawable/table_image_4" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:id="@+id/viewSelectedTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="10"
+            android:text="Select A Table From the layout above"
+            android:textSize="17sp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <EditText
+            android:paddingTop="30dp"
+            android:id="@+id/editTextBookName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter Name" />
+
+        <EditText
+            android:paddingTop="30dp"
+            android:id="@+id/editTextBookEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Enter Email" />
+
+        <EditText
+            android:paddingTop="30dp"
+            android:id="@+id/editTextBookPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Phone Number"
+            android:inputType="phone" />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="Select to Enter Time"
+            android:textSize="20sp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:ems="10"
+            android:hint="Select to Enter Date"
+            android:textSize="20sp"
+            android:background="@android:color/darker_gray"
+             />
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/reserve_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reserve"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMenuActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add item to Menu"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <LinearLayout
+            android:layout_marginTop="100sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:text="Select Category:" />
+            <Spinner
+                android:id="@+id/menu_category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:paddingTop="30dp"
+            android:id="@+id/editTextPlateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Plate Name" />
+
+        <EditText
+            android:paddingTop="30dp"
+            android:id="@+id/editTextPlatePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Price" />
+
+        <ImageButton
+            android:id="@+id/add_image"
+            android:layout_width="91dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@android:drawable/ic_menu_add"
+            android:scaleType="fitXY"
+            />
+
+        <Button
+            android:id="@+id/button_addPlate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100sp"
+            android:background="@color/design_default_color_primary_dark"
+            android:text="Add Plate"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

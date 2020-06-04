@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item   android:id="@+id/login-menu"
+        android:icon="@drawable/ic_account_icon"
+        android:title="account_button"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:title="View Reservations"
+                android:id="@+id/view_your_reservations_button"/>
+            <item android:title="Log Out"
+                android:id="@+id/logout_button"/>
+
+        </menu>
+    </item>
+</menu>
